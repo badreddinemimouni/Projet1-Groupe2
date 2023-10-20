@@ -14,19 +14,19 @@
     }
     
     
-    .news {
+    .divFooter {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .news h2{
+    .divFooter h2{
         font-family: 'Josefin Sans', bold;
         padding-top: 15%;
         color: white;
     }
 
-    .news p{
+    .divFooter p{
        
         color: white;
     }
