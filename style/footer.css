@@ -31,4 +31,11 @@
         color: white;
     }
 
+    .envoie {
+        width: 8%;
+    }
+
+    .formNewsletter{
+        margin: 3%;
+    }
 }
