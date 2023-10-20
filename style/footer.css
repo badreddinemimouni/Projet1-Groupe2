@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    background-color: blue;
+};
+
+section{
+    background-color: blanchedalmond;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+};
+
+*{
+    background-color: #bc4c01;
+}
+
+section{
+    width: 1OO%;
+} 
+
