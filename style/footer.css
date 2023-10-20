@@ -1,21 +1,32 @@
-footer{
-    display: flex;
-    background-color: blue;
-};
 
-section{
-    background-color: blanchedalmond;
+@media screen and (max-width: 450px) {
+    .footer { 
+        margin: 0%;
+        display: flex;
+    }
+    
+
+    .all{
+        background: #5286B6;
+        height: 45.8125rem;
+        flex-shrink: 0;
+    }
+    
+    
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news h2{
+        font-family: 'Josefin Sans', bold;
+        padding-top: 15%;
+        color: white;
+    }
+
+    .news p{
+       
+        color: white;
+    }
 }
-
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-};
-
-*{
-    background-color: #bc4c01;
-}
-
-section{
-    width: 1OO%;
-} 
-
