@@ -4,3 +4,6 @@ Lilya Maylis Badr Julie
 ```
 
 # Test Julie
+```shell
+git stash
+```
