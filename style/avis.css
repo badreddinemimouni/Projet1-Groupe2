@@ -1,0 +1,44 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    top: 100px;
+    position: absolute;
+
+    left: 50px;
+}
+.card-1{
+    /* margin-left: 48%; */
+    z-index: 2;
+    top:50px;
+}
+
+.card-2 {
+    top: 80px;
+    left: 350px;
+    z-index: 1;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+
+.persona{
+   position: relative;
+   left: 35%;
+   top: 100px;
+}
+
+.card-2 img{
+    position: absolute;
+    top: -50% ;
+    border-radius: 50%;
+    left: 24%;
+    height: 182px;
+}
+
+.card-2 h2{
+    margin-top: 85px;
+}
