@@ -13,7 +13,7 @@ export default class Contact extends ManageDom {
         this.dom_elements = this.render();
     }
     render(){
-        const section = this.createMarkup("section", "test", form)
+        const section = this.createMarkup("section", "", document.body)
     }
 }
 // constructor (firstName, lastName, status, mail, numberPhone, message){
