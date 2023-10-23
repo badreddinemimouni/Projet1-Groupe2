@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+}
+
+.bloc3, .bloc5, .bloc6{
+    display: flex;
+    justify-content: center;
+}
+
+.bloc2, .bloc4, .bloc1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-bloc2, .container-bloc4, .sous-titre{
+    display: flex;
+}
+
+.velomobile {
+    width: 50%;
+}
+
+.modele{
+    display: flex;
+    margin: 20px;
+}
+
+.text_classique{
+    text-align: center;
+}
+
+.titre_classique{
+    color: red;
+}
+
+.titre_sport{
+    color: blue;
+}
