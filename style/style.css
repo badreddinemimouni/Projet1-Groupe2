@@ -1,6 +1,11 @@
 /* desktop */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 0;
+
+    }
     .footer { 
         margin: 0%;
     }
@@ -147,8 +152,8 @@
     /* Bouton retour vers le haut */
     .buttonTop{
         position: relative;
-        top: 100px;
-        left: 1500px;
+        top: 72px;
+    left: 1315px;
     }
 
     .Top{
@@ -158,23 +163,37 @@
 }
 
 /* mobile */
-@media screen and (max-width: 450px) {
-    .footer { 
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .responssivefooter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0%;
+        max-width: 100%; 
+    }
+
+    footer {
         margin: 0%;
         display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
     }
-    
 
-    .all{
+    .all {
         background: #5286B6;
-        height: 45.8125rem;
+        height: auto; 
         flex-shrink: 0;
+        width: 100%; 
     }
-    
+
     .divFooterContact{
         font-family: 'Josefin Slab', serif;
     }
-
 
     .divFooter {
         display: flex;
@@ -182,136 +201,131 @@
         align-items: center;
     }
 
-    /* newsletter */
-    .titreNews{
-        font-family: 'Josefin Sans', bold;
-        padding-top: 15%;
-        color: white;
-    }
 
-    .texteNews{
-        color: white;
-        font-family: 'Josefin Slab', serif;
-    }
+/* newsletter */
+.titreNews{
+    font-family: 'Josefin Sans', bold;
+    padding-top: 15%;
+    color: white;
+}
 
-    .envoi {
-        width: 8%;
-    }
+.texteNews{
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
 
-    .formNewsletter{
-        margin: 3%;
-    }
+.envoi {
+    width: 8%;
+}
+
+.formNewsletter{
+    margin: 3%;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+/* contact */
+
+.titreContact {
+    font-family: 'Josefin Sans', bold;
+    color: white;
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+}
+
+.infosMenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infosMenu ul li {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+.iconsContact{
+    width: 6%;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* logo et reseaux sociaux */
+.divFooterLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoContainer{
+    width: 97px; 
+    height: 100px;
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+
+.logo {
+    width: 105%;
+    margin-top: -10%;
+
+}
+
+.socialMenu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: -13%;    }
+
+
+.divFooter ul li {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 15%;
+  }
+
+.iconsSocialMedia {
+    width: 73%;
+}
+
+.iconsSocialMediaDaily{
+    width: 7%;
+}
+
+.mentions {
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Josefin Slab', serif;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal; 
+    margin-bottom: 8%;
     
-    .button {
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 5%;
+}
+
+    .buttonTop {
+        margin: 5% 0;
+        margin-left: 77%;
     }
 
-    /* contact */
-
-    .titreContact {
-        font-family: 'Josefin Sans', bold;
-        color: white;
-        margin-top: 18%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .infosMenu{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .infosMenu ul li {
-        display: flex;
-        align-items: center;
-        color: white;
-      }
-
-    .iconsContact{
-        width: 6%;
-        margin-right: 10px;
-    }
-    
-    ul {
-        list-style-type: none;
-    }
-
-    /* logo et reseaux sociaux */
-    .divFooterLogo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .logoContainer{
-        width: 97px; 
-        height: 100px;
-        background-color: white;
-        border-radius: 50%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 13%;
-    }
-
-    .logo {
-        width: 105%;
-        margin-top: -10%;
-
-    }
-
-    .socialMenu {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: nowrap;
-        margin-left: 122%;
-        width: 169%;
-    }
-
-
-    .divFooter ul li {
-        display: flex;
-        align-items: center;
-        color: white;
-        width: 15%;
-      }
-   
-    .iconsSocialMedia {
-        width: 73%;
-    }
-
-    .iconsSocialMediaDaily{
-        width: 7%;
-    }
-
-    .mentions {
-        width: 343px; 
-        margin-top: 8%;
-        margin-left: 4%;
-        margin-right: 4%;
-        font-family: 'Josefin Slab', serif;
-        color: #000;
-        text-align: center;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal; 
-        
-    }
-
-     /* Bouton retour vers le haut */
-     .buttonTop{
-        position: relative;
-        bottom: 60px;
-        left: 320px;
-    }
-
-    .Top{
+    .Top {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
-   
 }
