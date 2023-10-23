@@ -26,7 +26,7 @@
     /* newsletter */
     .titreNews{
         font-family: 'Josefin Sans', bold;
-        padding-top: 15%;
+        padding-top: 0%;
         color: white;
     }
 
@@ -125,9 +125,16 @@
     
 
     .mentions {
-    margin-top: 16%;
+    margin-top: 1%;
     margin-left: 4%;
     margin-right: 4%;
+    font-family: 'Josefin Sans';
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
     }
 }
 
@@ -145,7 +152,7 @@
         flex-shrink: 0;
     }
     
-    
+
     .divFooter {
         display: flex;
         flex-direction: column;
@@ -255,8 +262,19 @@
     }
 
     .mentions {
-    margin-top: 8%;
-    margin-left: 4%;
-    margin-right: 4%;
+        width: 343px; 
+        margin-top: 8%;
+        margin-left: 4%;
+        margin-right: 4%;
+        font-family: 'Josefin Sans' ;
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        
     }
+
+   
 }
