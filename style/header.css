@@ -23,11 +23,11 @@ body {
   z-index: 100;
   width: 200px;
   height: 200px;
-  background: whitesmoke;
+  background: #5286B6;
   border-radius: 50% 50% 50% 50%;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+  box-shadow: 0 0 0 0 #5286B6, 0 0 0 0 #5286B6;
   cursor: pointer;
 
   
@@ -65,7 +65,7 @@ body {
 .navMobile input { display: none; }
 
 .navMobile input:checked + .menu {
-  box-shadow: 0 0 0 100vw white, 0 0 0 100vh white;
+  box-shadow: 0 0 0 100vw #5286B6, 0 0 0 100vh #5286B6;
   border-radius: 0;
   
 }
@@ -102,18 +102,28 @@ body {
   opacity: 0;
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
+  list-style: none;
+
 
 }
 
 .navMobile a {
   margin-bottom: 1em;
   display: block;
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    letter-spacing: 0.5px;
+  letter-spacing: 0.5px;  
+}
+
+.navMobile button{
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: #5286B6;
+
 }
 
 /*--------------------------- navDesk ------------------------------------------*/
@@ -132,6 +142,11 @@ a:hover {
 }
 .navDesk a{
     color : black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-size: 13px;
 }
 .navDesk button{
     /* position: relative; */
