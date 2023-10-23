@@ -1,0 +1,76 @@
+/* desktop */
+
+@media screen and (min-width: 450px) {
+
+   /* Icones Nos valeurs*/
+
+    .Icons{
+        text-align: center;
+        
+        
+    }
+    
+    li img{
+        width: 150px;  
+       }
+
+    ul li {
+        display:inline-block;
+        list-style-type: none;
+       
+        
+    }
+
+    ul{ 
+        width: auto;
+        
+    }
+
+    p{ font-family: 'Josefin Slab', serif;
+    }
+   
+    h2{ font-family: 'Josefin Sans', bold;
+    }
+
+    img{
+        width: 550px;
+    }
+}
+
+
+/* mobile */
+@media screen and (max-width: 450px){
+
+    /* Icones Nos valeurs*/
+    .Icons{
+        text-align: center;
+    }
+    
+    li img{
+        width: 50px;  
+       }
+
+    ul li {
+        display:inline-block;
+        list-style-type: none;
+    }
+
+    ul{ 
+        width: auto;
+    }
+
+    p{ font-family: 'Josefin Slab', serif;
+       
+   
+    h2{ font-family: 'Josefin Sans', bold;
+    }
+
+    img{
+        width: 351px;
+    }
+
+    /* Présentation des modéles Vélomobiles*/
+
+
+}
+    
