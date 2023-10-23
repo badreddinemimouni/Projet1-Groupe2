@@ -3,7 +3,6 @@
 @media screen and (min-width: 450px) {
     .footer { 
         margin: 0%;
-        display: flex;
     }
     
 
@@ -12,6 +11,7 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        align-items: center;
     }
     
     
@@ -106,6 +106,7 @@
 
     .socialMenu {
         display: flex;
+        padding-left: 0%;
         
     }
 
@@ -117,12 +118,11 @@
       }
    
     .iconsSocialMedia {
-        width: 72%;
+        width: 20px;
+        height: 20px;
     }
 
-    .iconsSocialMediaDaily{
-        width: 6%;
-    }
+    
 
     .mentions {
     margin-top: 16%;
