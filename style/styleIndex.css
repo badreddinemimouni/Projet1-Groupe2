@@ -1,0 +1,33 @@
+.containerMain{
+    display: flex;
+    flex-direction: column;
+}
+.containerTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.containerTop h1 {
+    color: black;
+    font-size: large;
+}
+
+.containerMid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.containerMid h2, p{
+    color: black;
+    font-size: medium;
+}
+
+.VM_1{
+    width: 90vw;
+    align-self: center;
+}
