@@ -8,6 +8,7 @@
 
     .all{
         background: #5286B6;
+        block-size: 300px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -116,6 +117,10 @@
         color: white;
         width: 15%;
       }
+
+    .divFooter{
+        margin-right:250px;
+    }
    
     .iconsSocialMedia {
         width: 20px;
@@ -123,18 +128,25 @@
     }
 
     
-
     .mentions {
     margin-top: 1%;
     margin-left: 4%;
     margin-right: 4%;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Slab', serif;
     color: #000;
     text-align: center;
     font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     line-height: normal; 
+    }
+
+
+    /* Bouton retour vers le haut */
+    .buttonTop{
+        position: relative;
+        top: 100px;
+        left: 1500px;
     }
 }
 
@@ -266,14 +278,21 @@
         margin-top: 8%;
         margin-left: 4%;
         margin-right: 4%;
-        font-family: 'Josefin Sans' ;
+        font-family: 'Josefin Slab', serif;
         color: #000;
         text-align: center;
         font-size: 14px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: normal;
         line-height: normal; 
         
+    }
+
+     /* Bouton retour vers le haut */
+     .buttonTop{
+        position: relative;
+        bottom: 40px;
+        left: 320px;
     }
 
    
