@@ -1,3 +1,5 @@
+/* desktop */
+
 @media screen and (min-width: 450px) {
     .footer { 
         margin: 0%;
@@ -81,6 +83,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 0%;
+        padding-left: 16%;
+        justify-content: center;
     }
     .logoContainer{
         width: 97px; 
@@ -126,7 +131,7 @@
     }
 }
 
-   
+/* mobile */
 @media screen and (max-width: 450px) {
     .footer { 
         margin: 0%;
