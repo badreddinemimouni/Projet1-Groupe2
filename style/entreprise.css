@@ -1,6 +1,6 @@
 /* desktop */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 768px) {
 
      /*Notre entreprise - titre*/
 
@@ -10,44 +10,320 @@
     }
 
    h2{
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     width: 862px;
     text-align: center;
     font-size: 66px;
     margin-left: 90px;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase; 
    }
 
-   img{
+   .imagetitre{
     width: 1051px;
    }
 
-    /* L'histoire du vélomobile */
+   body{
+    margin: auto;
+}
+
+.histoire{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 17%;
+}
+
+.text-histoire {
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; Centre les éléments horizontalement */
+    /* justify-content: center; Centre les éléments verticalement */
+    color: black;
+    flex: auto;
+    margin-left: 10%;
+   
+}
+.text{
+    text-align: left;
+    width: 370px;  
+    color: #D3423F;
     
 }
+
+.texte h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D3423F;
+    font-size: 31px;
+    margin: 0;
+}
+
+h3{
+   
+    font-family: Josefin Sans;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+p{
+    color: #000;
+    font-family: 'Josefin Slab', serif;
+    width: 456px;
+    font-size: 18px;
+}
+
+.texte hr{
+    border-top: 1px solid #000; 
+    /* Vous pouvez personnaliser la couleur et l'épaisseur de la ligne ici */
+    width: 120%;
+    margin-top: 3%;
+    margin-bottom: 10%; 
+}
+
+.img_archive{
+width: 402px;
+height: 335px;
+}
+
+}
+
+/* entreprise*/
+.QuiOnEst{
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0; 
+      justify-content: center;
+      display: flex;
+  }
+  
+  .entrepriseTexte{
+    width: 40%;
+  }
+  
+  .NotreEntreprise h2 {
+    width: 21.5625rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    color: #D3423F;;
+  
+    font-family: 'Josefin Sans';
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid black;
+    margin-top: 8%;
+  }
+  
+  .NotreEntreprise p {
+    color: #000;
+    font-family: Josefin Slab;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 27.1875rem;
+    flex-shrink: 0;
+  }
+  
+  .entreprisebtn {
+    width: 12.0625rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: #D3423F;;
+    color: #FFF;
+    font-family: Julius Sans One;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    margin-bottom: 6%;
+  }
+  
+  .image-container-usine {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 417px;
+  }
+  
+  .imgUsine{
+    width: 402px;
+  }
+  
+  /* entreprise*/
+  .atelier{
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 29%; 
+      justify-content: center;
+      display: flex;
+      flex-direction: row-reverse;
+  }
+  
+  .atelierTexte{
+    width: 32%;
+  }
+  
+  .NotreAtelier h2 {
+    width: 21.5625rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    color: #5286B6;;
+  
+    font-family: 'Josefin Sans';
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid black;
+    margin: 0;
+  }
+  
+  .NotreAtelier p {
+    color: #000;
+    font-family: Josefin Slab;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 27.1875rem;
+    flex-shrink: 0;
+  }
+  
+  .NotreAtelierbtn {
+    width: 12.0625rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: #5286B6;;
+    color: #FFF;
+    font-family: Julius Sans One;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    margin-bottom: 6%;
+  }
+  
+  .image-container-atelier {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 417px;
+  }
+  
+  .imgAtelier{
+    width: 402px;
+  }
+  
 
 /* mobile */
 @media screen and (max-width: 450px){
 
     /*Notre entreprise - titre*/
     .titre{
-        display: block;
-        
+        display: block;  
     }
 
-
     h2{
-        font-family: 'Josefin Sans';
+        font-family: 'Josefin Sans', sans-serif;
         width: 331px;
         text-align: center;
         font-size: 35px;
         margin-left: 21px;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase; 
        }
         
-       img{
-        width: 100%;
+       .imagetitre{
+        width: 390px;
+        left:0;
        }
+
+       .img_archive{
+        width: 341px;
+        height: 335px;
+        padding-bottom: 4%;
+        margin-left: 4%;
+        }
+
+        .histoire{
+            
+            justify-content: center;
+            margin-top: 5%;
+            justify-content: space-around;
+            flex-direction: row;
+            
+        }
         
-       /* L'histoire du vélomobile */
+        .text-histoire {
+            display: flex;
+            flex-direction: column; 
+            /* align-items: center; Centre les éléments horizontalement */
+            justify-content: center;
+            color: black;
+            flex: auto;
+            
+           
+        }
+        .text{
+            text-align: left;
+            width: 370px;  
+            color: #D3423F;
+            
+        }
+        
+        .texte h3{
+            font-family: 'Josefin Sans', sans-serif;
+            color: #D3423F;
+            font-size: 31px;
+            margin: 0;
+        }
+        
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; 
+        }
+        
+        p{
+            color: #000;
+            font-family: 'Josefin Slab', serif;
+            width: 307px;
+            font-size: 14px;
+        }
+        
+        .texte hr{
+            border-top: 1px solid #000; 
+            width: 70%;
+            margin-top: 3%;
+            margin-bottom: 10%; 
+        
+        }
 
 }
    
