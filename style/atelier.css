@@ -1,6 +1,6 @@
 /* desktop */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 768px) {
 
     .engagementUsine{
         margin-left: 40px;
@@ -74,12 +74,12 @@
         line-height: normal; 
         width: 506px;    
        
- }
-}
- 
+ }}
+
+
  
  /* mobile */
- @media screen and (max-width: 450px){
+ @media screen and (max-width: 768px){
  
     .engagementUsine{
         margin-left: 20px;
@@ -137,4 +137,35 @@
         width: 337px;    
        
  }
+/* Icones Nos valeurs*/
+.Icons{
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+li img{
+  width: 45%;  
+   }
+
+ul li {
+  display:inline-block;
+  list-style-type: none;
+}
+
+ul{ 
+  width: auto;
+}
+
+p{ 
+  font-family: 'Josefin Slab', serif;  
+}
+
+h2{ 
+  font-family: 'Josefin Sans', bold;
+}
  }
