@@ -8,7 +8,7 @@
         display: block;
         margin-left: 17%;
     }
-
+    /*Notre entreprise - h2 */
    h2{
     font-family: 'Josefin Sans', sans-serif;
     width: 862px;
@@ -21,7 +21,7 @@
     line-height: normal;
     text-transform: uppercase; 
    }
-
+   /*Notre entreprise - img */
    .imagetitre{
     width: 1051px;
    }
@@ -29,211 +29,220 @@
    body{
     margin: auto;
 }
-
-.histoire{
+  /* class histoire - bloc histoire du velomobile */
+  .histoire{
     display: flex;
     align-items: center;
     margin-top: 5%;
-    justify-content: space-around;
     flex-direction: row;
-    margin-left: 17%;
+    margin-left: 17%; 
 }
 
-.text-histoire {
+/* class histoire - bloc présentation des équipes */
+.QuiC{
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: row;
+  margin-left: 8%; 
+}
+
+/* class histoire - pourquoi LVF ? */
+.why{
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: row;
+  margin-left: 8%; 
+}
+
+  .text-histoire {
     display: flex;
     flex-direction: column; 
-    /* align-items: center; Centre les éléments horizontalement */
-    /* justify-content: center; Centre les éléments verticalement */
     color: black;
-    flex: auto;
-    margin-left: 10%;
-   
-}
-.text{
-    text-align: left;
-    width: 370px;  
-    color: #D3423F;
-    
+    margin-left: 10%;  
 }
 
-.texte h3{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #D3423F;
-    font-size: 31px;
-    margin: 0;
-}
-
-h3{
-   
+.Hist{
+  border-bottom: 1px solid black;
+  width: 10.5625rem;
+  height: 2.375rem;
     font-family: Josefin Sans;
     font-size: 31px;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
+    width: 602px;
+    color: #D3423F;
 }
 
-p{
+.Qui{
+  border-bottom: 1px solid black;
+  width: 10.5625rem;
+  height: 2.375rem;
+    font-family: Josefin Sans;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    width: 602px;
+    color: rgb(82, 134, 182);
+    
+}
+
+.pourquoi{
+  border-bottom: 1px solid black;
+  width: 10.5625rem;
+  height: 2.375rem;
+    font-family: Josefin Sans;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    width: 602px;
+    color: #D3423F;
+}
+
+/* blocs <p> textes différenciés */
+/* deux premiers paragraphes */
+.blocText{
     color: #000;
     font-family: 'Josefin Slab', serif;
     width: 456px;
     font-size: 18px;
 }
 
-.texte hr{
-    border-top: 1px solid #000; 
-    /* Vous pouvez personnaliser la couleur et l'épaisseur de la ligne ici */
-    width: 120%;
-    margin-top: 3%;
-    margin-bottom: 10%; 
+/* blocs pourquoi LVF ? */
+.blocTextPourquoi{
+    color: #000;
+    font-family: Josefin Slab;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    width: 883px; 
 }
 
+/* Partie Images */
 .img_archive{
-width: 402px;
-height: 335px;
+    
+    height: 335px;
 }
+
+.img_equipe{
+  height: 335px;
+}
+
+
+/* Icones Nos valeurs*/
+.Icons{
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 21%;
+    margin-right: 21%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+li img{
+  width: 45%;  
+   }
+
+ul li {
+  display:inline-block;
+  list-style-type: none;
+}
+
+ul{ 
+  width: auto;
+}
+
+p{ 
+  font-family: 'Josefin Slab', serif;  
+}
+
+h2{ 
+  font-family: 'Josefin Sans', bold;
+}
+
+
+ /*Section - Ils ont parlé de nous*/
+
+  /* bloc médias entier */
+
+  section{
+    text-align: center;
+    width: 1080;
+    
+ }
+
+ /* Titre Ils parlent de nous*/
+
+ .medias{
+    margin-left: 17%;
+    width: 1080;
+   
+ }
+
+ .medias .talk{
+    
+    width: 780px;
+    font-size: 31px;
+    flex-shrink: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 40;
+    line-height: normal;
+    border-bottom-width: 1px;
+    width: 1080;
+    margin-left: 20px;
+    
+ }
+
+ .talk{
+    
+    text-align: left;
+    color: #D3423F;
+      font-family: Josefin Sans;
+      font-size: 31px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+ }
+
+ .bloc1, .bloc2{
+    display: inline-block;
+ }
+
+ .talkP{
+    font-family: 'Josefin Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    width: 488px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+ }
+
+ .legende .talkP{
+    text-align: center;
+ }
+
+ /* Images */
+
+ .img_med{
+    width: 506px;
+    margin: 20px;
+ }
+
+ 
 
 }
 
-/* entreprise*/
-.QuiOnEst{
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0; 
-      justify-content: center;
-      display: flex;
-  }
   
-  .entrepriseTexte{
-    width: 40%;
-  }
-  
-  .NotreEntreprise h2 {
-    width: 21.5625rem;
-    height: 2.375rem;
-    flex-shrink: 0;
-    color: #D3423F;;
-  
-    font-family: 'Josefin Sans';
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-bottom: 1px solid black;
-    margin-top: 8%;
-  }
-  
-  .NotreEntreprise p {
-    color: #000;
-    font-family: Josefin Slab;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 27.1875rem;
-    flex-shrink: 0;
-  }
-  
-  .entreprisebtn {
-    width: 12.0625rem;
-    height: 1.375rem;
-    flex-shrink: 0;
-    border-radius: 0.3125rem;
-    background: #D3423F;;
-    color: #FFF;
-    font-family: Julius Sans One;
-    font-size: 0.625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 0;
-    margin-bottom: 6%;
-  }
-  
-  .image-container-usine {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 417px;
-  }
-  
-  .imgUsine{
-    width: 402px;
-  }
-  
-  /* entreprise*/
-  .atelier{
-    align-items: center;
-    margin-left: 16%;
-    margin-right: 29%; 
-      justify-content: center;
-      display: flex;
-      flex-direction: row-reverse;
-  }
-  
-  .atelierTexte{
-    width: 32%;
-  }
-  
-  .NotreAtelier h2 {
-    width: 21.5625rem;
-    height: 2.375rem;
-    flex-shrink: 0;
-    color: #5286B6;;
-  
-    font-family: 'Josefin Sans';
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-bottom: 1px solid black;
-    margin: 0;
-  }
-  
-  .NotreAtelier p {
-    color: #000;
-    font-family: Josefin Slab;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 27.1875rem;
-    flex-shrink: 0;
-  }
-  
-  .NotreAtelierbtn {
-    width: 12.0625rem;
-    height: 1.375rem;
-    flex-shrink: 0;
-    border-radius: 0.3125rem;
-    background: #5286B6;;
-    color: #FFF;
-    font-family: Julius Sans One;
-    font-size: 0.625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 0;
-    margin-bottom: 6%;
-  }
-  
-  .image-container-atelier {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 417px;
-  }
-  
-  .imgAtelier{
-    width: 402px;
-  }
+
   
 
 /* mobile */
@@ -269,61 +278,193 @@ height: 335px;
         margin-left: 4%;
         }
 
+         /* class histoire - bloc histoire du velomobile */
         .histoire{
-            
-            justify-content: center;
-            margin-top: 5%;
-            justify-content: space-around;
-            flex-direction: row;
-            
-        }
+          align-items: center;
+          margin-top: 5%;    
+      }
+
+      /* class histoire - bloc présentation des équipes */
+        .QuiC{
+          align-items: center;
+          margin-top: 5%;
+      }
+
+      /* class histoire - pourquoi LVF ? */
+        .why{
+        display: flex;
         
+        margin-top: 5%;
+        
+      }
+
         .text-histoire {
-            display: flex;
-            flex-direction: column; 
-            /* align-items: center; Centre les éléments horizontalement */
-            justify-content: center;
-            color: black;
-            flex: auto;
-            
-           
+          color: black;
+          
+      }
+
+        .Hist{
+          border-bottom: 1px solid black;
+          width: 10.5625rem;
+          height: 2.375rem;
+          color: #D3423F;
+          font-family: Josefin Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+      }
+
+        .Qui{
+          border-bottom: 1px solid black;
+          width: 10.5625rem;
+          height: 2.375rem;
+          color: #5286B6;
+          font-family: Josefin Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+          margin-top: 5%;
+          
+      }
+
+        .pourquoi{
+          border-bottom: 1px solid black;
+          width: 10.5625rem;
+          height: 2.375rem;
+          color: #D3423F;
+          font-family: Josefin Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+          margin-top: 5%;
+      }
+
+        /* blocs <p> textes différenciés */
+        /* deux premiers paragraphes */
+        .blocText{
+          color: #000;
+          font-family: Josefin Slab;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+          width: 334px; 
         }
-        .text{
-            text-align: left;
-            width: 370px;  
-            color: #D3423F;
-            
+
+      /* blocs pourquoi LVF ? */
+        .blocTextPourquoi{
+          color: #000;
+          font-family: Josefin Slab;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+          width: 334px; 
         }
+
+        /* Partie Images */
+        .img_archive{
+          margin-top: 8%;
+          width: 341px;
+        }
+
+        .img_equipe{
+          width: 341px;
+        }
+
+        /* Icones Nos valeurs*/
+  .Icons{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li img{
+    width: 45%;  
+     }
+  
+  ul li {
+    display:inline-block;
+    list-style-type: none;
+  }
+  
+  ul{ 
+    width: auto;
+  }
+  
+  p{ 
+    font-family: 'Josefin Slab', serif;  
+  }
+  
+  h2{ 
+    font-family: 'Josefin Sans', bold;
+  }
+  
+
+         /*Section - Ils ont parlé de nous*/
+
+         section{
+          text-align: center;
+       }
+  
+       /* Titre Ils parlent de nous*/
+  
+       .medias .talk{
+          font-family: 'Josefin Sans', bold;
+          width: 19.625rem;
+          height: 1.625rem;
+          flex-shrink: 0;
+          border-bottom: 1px solid black;
+          color: #D3423F;
+          font-family: Josefin Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+          width: 602;
+          
+       }
+  
+       .talk{
+        border-bottom: 1px solid black;
+        width: 10.5625rem;
+        height: 2.375rem;
+        color: #D3423F;
+        font-family: Josefin Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        margin-top: 5%;
         
-        .texte h3{
-            font-family: 'Josefin Sans', sans-serif;
-            color: #D3423F;
-            font-size: 31px;
-            margin: 0;
-        }
-        
-        h3{
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal; 
-        }
-        
-        p{
-            color: #000;
-            font-family: 'Josefin Slab', serif;
-            width: 307px;
-            font-size: 14px;
-        }
-        
-        .texte hr{
-            border-top: 1px solid #000; 
-            width: 70%;
-            margin-top: 3%;
-            margin-bottom: 10%; 
-        
-        }
+       }
+  
+       .talkP{
+          font-family: 'Josefin Slab', serif;
+          font-size: 14px;
+          text-align: left;
+          width: 334px;
+          padding-bottom: 8px;
+          margin-left: 20px;
+       }
+  
+       .legende .talkP{
+          text-align: center;
+          font-family: 'Josefin Slab', serif;
+       }
+  
+       /* Images */
+  
+       .img_med{
+          width: 334px;
+       }
 
 }
    
