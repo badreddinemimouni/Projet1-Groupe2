@@ -258,6 +258,32 @@ ul {
     list-style-type: none;
 }
 
+.ModelsVelo {
+    display: flex; /* Utilisez flexbox */
+    justify-content: space-between; /* Ajustez l'espacement entre les éléments */
+  }
+
+  .ModelsVelo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ClassicVelo,
+  .SportVelo {
+    flex: 1; /* Cela permet à chaque élément de prendre autant d'espace que possible */
+  }
+
+  .ClassicVelo img,
+  .SportVelo img {
+    max-width: 100%; /* Assurez-vous que les images n'excèdent pas leur conteneur */
+  }
+
+  .ClassicVelo h2,
+  .SportVelo h2 {
+    font-family: 'Josefin Sans', bold;
+    text-align: center; /* Centrez le texte si nécessaire */
+  }
+
 /* logo et reseaux sociaux */
 .divFooterLogo {
     display: flex;

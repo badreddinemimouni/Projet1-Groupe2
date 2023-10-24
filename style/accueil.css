@@ -4,10 +4,15 @@
 
    /* Icones Nos valeurs*/
 
+   
+
     .Icons{
-        text-align: center;
-        
-        
+        text-align: center; 
+    }
+
+    .icon{
+        width: 217px;
+        flex-shrink: 0; 
     }
     
     li img{
@@ -16,14 +21,11 @@
 
     ul li {
         display:inline-block;
-        list-style-type: none;
-       
-        
+        list-style-type: none;  
     }
 
     ul{ 
-        width: auto;
-        
+        width: auto;    
     }
 
     p{ font-family: 'Josefin Slab', serif;
@@ -35,6 +37,125 @@
     img{
         width: 550px;
     }
+
+    /* partie vélomobiles*/
+
+    .ModelsVelo {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      .ClassicVelo,
+      .SportVelo {
+        flex: 1; 
+        margin: 40px;
+        width: 1066px;
+      }
+  
+      .ClassicVelo img,
+      .SportVelo img {
+        max-width: 100%; 
+      }
+
+      .ClassicVelo h2{
+        font-family: 'Josefin Sans', bold;
+        text-align: left; 
+        width: 54.625rem;
+        height: 2.625rem;
+        flex-shrink: 0;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        color: #5286B6;
+        font-size: 1.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-bottom-width: 1px;
+       
+      };
+  
+      .SportVelo h2 {
+        font-family: 'Josefin Sans', bold;
+        text-align: left; 
+        width: 54.625rem;
+        height: 2.625rem;
+        flex-shrink: 0;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        color: #D3423F;
+        font-size: 1.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+         border-bottom-width: 1px;
+      }
+
+    .textVM{
+        text-align: left;
+        width: 60%;
+        color: black;
+      }
+
+       /* Boutons pour chaque modèle */
+
+      .btnClassic{
+        font-family: 'Julius Sans One', sans-serif;
+        background-color: #5286B6;
+        color: white;
+        border-radius: 6px;
+        padding: 1% 6%;
+        cursor:pointer;
+        border: none;
+      };
+
+      .btnSport{
+        font-family: 'Julius Sans One', sans-serif;
+        background-color: #D3423F;
+        color: white;
+        border-radius: 6px;
+        padding: 1% 6%;
+        cursor:pointer;
+        border: none;
+      };
+
+      /* Ou nous trouver*/
+
+      .Ou{
+        font-family: 'Josefin Sans', bold;
+        text-align: left; /* Centrez le texte si nécessaire */
+        width: 54.625rem;
+        height: 2.625rem;
+        flex-shrink: 0;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        font-style: normal;
+        font-weight: 40;
+        line-height: normal;
+        border-bottom-width: 1px;
+        
+      }
+
+      .Ou h2{
+        color: #D3423F;
+      }
+
+      /* photos enseignes*/
+
+      .enseignes{
+        text-align: center;
+        display:flex;
+    }
+    .imgShop{
+        width: 336px;
+        margin: 15px;
+    }
+
+    .textShop{
+        width: 292px;
+        margin: 15px;
+        text-align: center;
+    }
+      
 }
 
 
@@ -61,7 +182,7 @@
 
     p{ font-family: 'Josefin Slab', serif;
        
-   
+    }
     h2{ font-family: 'Josefin Sans', bold;
     }
 
