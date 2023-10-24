@@ -3,7 +3,11 @@
 
 html { font-size: 18px; }
 
+
 body {
+  overflow-x: hidden;
+}
+header {
   color: #e0e4cc;
   font-size: 1.2em;
   line-height: 1.6;
@@ -17,6 +21,7 @@ body {
 }
 
 .navMobile .menu {
+  /* display: flex; */
   position: absolute;
   right: -100px;
   top: -100px;
@@ -29,8 +34,7 @@ body {
   transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #5286B6, 0 0 0 0 #5286B6;
   cursor: pointer;
-
-  
+  overflow: hidden;
 }
 
 .navMobile .hamburger {
