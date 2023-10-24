@@ -1,0 +1,140 @@
+/* desktop */
+
+@media screen and (min-width: 450px) {
+
+    .engagementUsine{
+        margin-left: 40px;
+    }
+
+    .engagementUsine h2 {
+        width: 54.625rem;
+        height: 2.625rem;
+        flex-shrink: 0;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-bottom-width: 1px;
+        font-size: 18px;
+        font-size: 31px;
+    }
+
+    h2{
+        color: #5286B6;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: 'Josefin Sans'; 
+    }
+
+    p{
+        width: 569px;
+        font-family: 'Josefin Slab';
+    }
+
+
+
+
+    li img{
+        width: 506px;
+        margin-left:-40px;
+        
+    }
+
+    .engagementImg {
+        display: flex;
+        width: 1025px;
+        
+      }
+
+      
+      .img1 { 
+        margin-left: 40px;
+      }
+      .img2 { 
+        margin-left: 20px;
+      }
+
+      .img1 img,
+      .img2 img {
+        max-width: 100%;
+        width: 506px; 
+      }
+
+    #descriptif{
+        font-family: 'Josefin Slab';
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        width: 506px;    
+       
+ }
+}
+ 
+ 
+ /* mobile */
+ @media screen and (max-width: 450px){
+ 
+    .engagementUsine{
+        margin-left: 20px;
+    }
+
+    .engagementUsine h2 {   
+        flex-shrink: 0;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;   
+        font-size: 15px;  
+    }
+
+    h2{
+        color: #5286B6;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+    }
+
+    p{
+        width: 307px;
+        font-family: 'Josefin Slab';
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        text-align: left;
+    }
+
+    .engagementImg {
+        text-align: center;
+    }
+    
+      .img1 img,
+      .img2 img {
+        max-width: 100%;
+        width: 346px; 
+       
+      }
+
+    #descriptif{
+        font-family: 'Josefin Slab';
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        width: 337px;    
+       
+ }
+ }
