@@ -1,197 +1,1226 @@
-/* desktop */
-
-@media screen and (min-width: 450px) {
-
-   /* Icones Nos valeurs*/
-
-   
-
-    .Icons{
-        text-align: center; 
-    }
-
-    .icon{
-        width: 217px;
-        flex-shrink: 0; 
-    }
-    
-    li img{
-        width: 150px;  
-       }
-
-    ul li {
-        display:inline-block;
-        list-style-type: none;  
-    }
-
-    ul{ 
-        width: auto;    
-    }
-
-    p{ font-family: 'Josefin Slab', serif;
-    }
-   
-    h2{ font-family: 'Josefin Sans', bold;
-    }
-
-    img{
-        width: 550px;
-    }
-
-    /* partie vélomobiles*/
-
-    .ModelsVelo {
-        display: flex;
-        justify-content: space-between;
-      }
-  
-      .ClassicVelo,
-      .SportVelo {
-        flex: 1; 
-        margin: 40px;
-        width: 1066px;
-      }
-  
-      .ClassicVelo img,
-      .SportVelo img {
-        max-width: 100%; 
-      }
-
-      .ClassicVelo h2{
-        font-family: 'Josefin Sans', bold;
-        text-align: left; 
-        width: 54.625rem;
-        height: 2.625rem;
-        flex-shrink: 0;
-        border-bottom: 1px solid black;
-        padding-bottom: 4px;
-        color: #5286B6;
-        font-size: 1.9375rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border-bottom-width: 1px;
-       
-      };
-  
-      .SportVelo h2 {
-        font-family: 'Josefin Sans', bold;
-        text-align: left; 
-        width: 54.625rem;
-        height: 2.625rem;
-        flex-shrink: 0;
-        border-bottom: 1px solid black;
-        padding-bottom: 4px;
-        color: #D3423F;
-        font-size: 1.9375rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-         border-bottom-width: 1px;
-      }
-
-    .textVM{
-        text-align: left;
-        width: 60%;
-        color: black;
-      }
-
-       /* Boutons pour chaque modèle */
-
-      .btnClassic{
-        font-family: 'Julius Sans One', sans-serif;
-        background-color: #5286B6;
-        color: white;
-        border-radius: 6px;
-        padding: 1% 6%;
-        cursor:pointer;
-        border: none;
-      };
-
-      .btnSport{
-        font-family: 'Julius Sans One', sans-serif;
-        background-color: #D3423F;
-        color: white;
-        border-radius: 6px;
-        padding: 1% 6%;
-        cursor:pointer;
-        border: none;
-      };
-
-      /* Ou nous trouver*/
-
-      .Ou{
-        font-family: 'Josefin Sans', bold;
-        text-align: left; /* Centrez le texte si nécessaire */
-        width: 54.625rem;
-        height: 2.625rem;
-        flex-shrink: 0;
-        border-bottom: 1px solid black;
-        padding-bottom: 4px;
-        font-style: normal;
-        font-weight: 40;
-        line-height: normal;
-        border-bottom-width: 1px;
-        
-      }
-
-      .Ou h2{
-        color: #D3423F;
-      }
-
-      /* photos enseignes*/
-
-      .enseignes{
-        text-align: center;
-        display:flex;
-    }
-    .imgShop{
-        width: 336px;
-        margin: 15px;
-    }
-
-    .textShop{
-        width: 292px;
-        margin: 15px;
-        text-align: center;
-    }
-      
-}
 
 
 /* mobile */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 768px){
 
-    /* Icones Nos valeurs*/
-    .Icons{
-        text-align: center;
-    }
-    
-    li img{
-        width: 50px;  
-       }
+  .navDesk {
+    visibility: hidden;
+}
 
-    ul li {
-        display:inline-block;
-        list-style-type: none;
-    }
 
-    ul{ 
-        width: auto;
-    }
+  /* Premiere vue LVF*/
 
-    p{ font-family: 'Josefin Slab', serif;
-       
-    }
-    h2{ font-family: 'Josefin Sans', bold;
-    }
+  .lvf{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4%;
+    margin-right: 4%;  
+  }
+  
+  
+  .lvf h1 {
+    width: 20.6875rem;
+    height: 5.125rem;
+    flex-shrink: 0;
+    color: #000c;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: unset;
+    text-transform: uppercase;
+    padding-top: 26%;
+  }
 
-    img{
-        width: 351px;
-    }
+  .btnBas{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12%;
+  }
 
-    /* Présentation des modéles Vélomobiles*/
+  /* Pourquoi velo mobile */
+.VeloMobilePourquoi{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;  
+}
 
+.PourquoiVeloMobile {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.PourquoiVeloMobile h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+}
+
+.PourquoiVeloMobile p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 19.1875rem;
+  flex-shrink: 0;
+}
+
+/* entreprise*/
+.Entreprise{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;  
+}
+
+
+.NotreEntreprise h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+}
+
+.NotreEntreprise p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 19.1875rem;
+  flex-shrink: 0;
+}
+
+.entreprisebtn {
+  width: 12.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #D3423F;;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-bottom: 6%;
+}
+
+/* atelier*/
+.atelier{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;  
+}
+
+
+
+.NotreAtelier h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #5286B6;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+}
+
+.NotreAtelier p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 19.1875rem;
+  flex-shrink: 0;
+}
+
+.NotreAtelierbtn {
+  width: 12.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #5286B6;;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-bottom: 6%;
+}
+
+  /* Icones Nos valeurs*/
+  .Icons{
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+li img{
+  width: 45%;  
+   }
+
+ul li {
+  display:inline-block;
+  list-style-type: none;
+}
+
+ul{ 
+  width: auto;
+}
+
+p{ 
+  font-family: 'Josefin Slab', serif;  
+}
+
+h2{ 
+  font-family: 'Josefin Sans', bold;
+}
+
+/* partie vélomobiles*/
+
+.classicImg {
+  width: 100%;
+}
+
+.classicVelo{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.classicVelo h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #5286B6;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+}
+
+.classicVelo p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 19.1875rem;
+  flex-shrink: 0;
+}
+
+.btnClassic {
+  width: 8.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #5286B6;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+
+.SportVelo{
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.SportVelo h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+  text-align: start !important;
+}
+
+.SportVelo p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 19.1875rem;
+  flex-shrink: 0;
+}
+
+.btnSport {
+  width: 8.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #D3423F;;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+/* ou nous trouver */
+.ou {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ou h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+}
+
+.ou p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 19.1875rem;
+  flex-shrink: 0;
+}
+
+.imgShop {
+  width: 100%;
+}
+
+.imgUsine{
+  width: 100%;
+}
+
+.imgvm{
+  width: 100%;
+
+}
+
+.image-container-atelier {
+  width: 100%;
+}
+
+.imgAtelier{
+  width: 100%;
+}
+
+
+.ouNousTrouver{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.enseignes {
+  margin: 0;
+  padding: 0;
+}
+
+/* footer */
+.responssivefooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0%;
+  max-width: 100%; 
+}
+
+footer {
+  margin: 0%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.all {
+  background: #5286B6;
+  height: auto; 
+  flex-shrink: 0;
+  width: 100%; 
+}
+
+.divFooterContact{
+  font-family: 'Josefin Slab', serif;
+}
+
+.divFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* newsletter */
+.titreNews{
+font-family: 'Josefin Sans', bold;
+padding-top: 15%;
+color: white;
+}
+
+.texteNews{
+color: white;
+font-family: 'Josefin Slab', serif;
+}
+
+.envoi {
+width: 8%;
+}
+
+.formNewsletter{
+margin: 3%;
+}
+
+.button {
+display: flex;
+justify-content: flex-end;
+padding-right: 5%;
+}
+
+/* contact */
+
+.titreContact {
+font-family: 'Josefin Sans', bold;
+color: white;
+margin-top: 18%;
+display: flex;
+justify-content: center;
+}
+
+.infosMenu{
+display: flex;
+justify-content: space-evenly;
+}
+
+.infosMenu ul li {
+display: flex;
+align-items: center;
+color: white;
+}
+
+.iconsContact{
+width: 6%;
+margin-right: 10px;
+}
+
+ul {
+list-style-type: none;
+}
+
+.ModelsVelo {
+display: flex; /* Utilisez flexbox */
+justify-content: space-between; /* Ajustez l'espacement entre les éléments */
+}
+
+.ModelsVelo {
+display: flex;
+justify-content: space-between;
+}
+
+.ClassicVelo,
+.SportVelo {
+flex: 1; /* Cela permet à chaque élément de prendre autant d'espace que possible */
+}
+
+.ClassicVelo img,
+.SportVelo img {
+max-width: 100%; /* Assurez-vous que les images n'excèdent pas leur conteneur */
+}
+
+.ClassicVelo h2,
+.SportVelo h2 {
+font-family: 'Josefin Sans', bold;
+text-align: center; /* Centrez le texte si nécessaire */
+}
+
+/* logo et reseaux sociaux */
+.divFooterLogo {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.logoContainer{
+width: 97px; 
+height: 100px;
+background-color: white;
+border-radius: 50%; 
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 13%;
+}
+
+.logolvf {
+width: 105%;
+margin-top: -10%;
+
+}
+
+.socialMenu {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: nowrap;
+margin-left: -13%;    }
+
+
+.divFooter ul li {
+display: flex;
+align-items: center;
+color: white;
+width: 15%;
+}
+
+.iconsSocialMedia {
+width: 73%;
+}
+
+.iconsSocialMediaDaily{
+width: 7%;
+}
+
+.mentions {
+margin-top: 8%;
+margin-left: 4%;
+margin-right: 4%;
+font-family: 'Josefin Slab', serif;
+color: #000;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height: normal; 
+margin-bottom: 8%;
+
+}
+
+.buttonTop {
+  margin: 5% 0;
+  margin-left: 77%;
+}
+
+.Top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 }
     
+
+/* desktop */
+
+@media screen and (min-width: 768px) {
+
+  .navDesk {
+    visibility: hidden;
+}
+
+/* Premiere vue LVF*/
+
+.lvf{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;  
+}
+
+
+.lvf h1 {
+  flex-shrink: 0;
+  color: #000c;
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: unset;
+  text-transform: uppercase;
+  padding-top: 6%;
+}
+
+.btnBas{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12%;
+}
+
+.image-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 417px;
+}
+
+.imgShop {
+  width: 63%;
+}
+
+
+  
+/* Pourquoi velo mobile */
+.VeloMobilePourquoi{
+
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 16%;
+  margin-right: 16%;  
+  margin-bottom: 10%;
+}
+
+
+
+.PourquoiVeloMobile h2 {
+  width: 41.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+}
+
+.PourquoiVeloMobile p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 34.1875rem;
+}
+
+
+
+.imgvm {
+  width: 100%;
+}
+
+/* entreprise*/
+.Entreprise{
+  align-items: center;
+  margin-left: 16%;
+  margin-right: 16%; 
+    justify-content: center;
+    display: flex;
+}
+
+.entrepriseTexte{
+  width: 32%;
+}
+
+.NotreEntreprise h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin-top: 8%;
+}
+
+.NotreEntreprise p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 27.1875rem;
+  flex-shrink: 0;
+}
+
+.entreprisebtn {
+  width: 12.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #D3423F;;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-bottom: 6%;
+}
+
+.image-container-usine {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 417px;
+}
+
+.imgUsine{
+  width: 68%;
+}
+
+/* entreprise*/
+.atelier{
+  align-items: center;
+  margin-left: 16%;
+  margin-right: 29%; 
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.atelierTexte{
+  width: 32%;
+}
+
+.NotreAtelier h2 {
+  width: 21.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+.NotreAtelier p {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 27.1875rem;
+  flex-shrink: 0;
+}
+
+.NotreAtelierbtn {
+  width: 12.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #D3423F;;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-bottom: 6%;
+}
+
+.image-container-atelier {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 417px;
+}
+
+.imgAtelier{
+  width: 85%;
+}
+
+/* Icones Nos valeurs*/
+.Icons{
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+li img{
+  width: 45%;  
+   }
+
+ul li {
+  display:inline-block;
+  list-style-type: none;
+}
+
+ul{ 
+  width: auto;
+}
+
+p{ 
+  font-family: 'Josefin Slab', serif;  
+}
+
+h2{ 
+  font-family: 'Josefin Sans', bold;
+}
+
+/* partie vélomobiles*/
+
+.classicImg {
+  width: 100%;
+}
+
+.classicVelo{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 16%;
+    margin-right: 4%;
+    display: flex;
+}
+
+.classicVelo h2 {
+  width: 25.5625rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    color: #5286B6;
+    font-family: 'Josefin Sans';
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid black;
+    margin-top: 6%;
+}
+
+.classicVelo p {
+  color: #000;
+    font-family: Josefin Slab;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 24.1875rem;
+    flex-shrink: 0;
+}
+
+.btnClassic {
+  width: 8.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #5286B6;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+.SportVelo{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;
+    margin-right: 16%;
+    display: flex;
+}
+
+.SportVelo h2 {
+  width: 25.5625rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    color: #D3423F;
+    font-family: 'Josefin Sans';
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid black;
+    margin-top: 6%;
+}
+
+.SportVelo p {
+  color: #000;
+    font-family: Josefin Slab;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 24.1875rem;
+    flex-shrink: 0;
+}
+
+.btnSport {
+  width: 8.0625rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #D3423F;
+  color: #FFF;
+  font-family: Julius Sans One;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+.LesDeuxVeloMobile {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+
+}
+
+/* ou nous trouver */
+.ou {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 16%;
+  margin-right: 7%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.ou h2 {
+  width: 41.5625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  color: #D3423F;;
+
+  font-family: 'Josefin Sans';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid black;
+}
+
+
+.textVM {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 34.1875rem;
+  flex-shrink: 0;
+}
+
+.textShop{
+  color: #000;
+  text-align: center;
+  font-family: 'Josefin Slab';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 18.25rem;
+height: 10rem;
+flex-shrink: 0;
+}
+
+.imgShop {
+  width: 81%;
+}
+
+.contenaire-enseigne{
+  width: 95%;
+}
+
+
+.ouNousTrouver{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0%;
+    margin-right: 1%;
+}
+
+.enseignes {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Footer */
+  
+
+  .footer { 
+      margin: 0%;
+  }
+  
+  .all{
+      background: #5286B6;
+      block-size: 300px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .divFooter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  /* newsletter */
+  .titreNews{
+      font-family: 'Josefin Sans', bold;
+      padding-top: 0%;
+      color: white;
+  }
+
+  .texteNews{
+      color: white;
+  }
+
+  .envoi {
+      width: 8%;
+  }
+
+  .formNewsletter{
+      margin: 3%;
+  }
+  
+  .button {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 5%;
+  }
+
+  /* contact */
+  .divFooterContact{
+      font-family: 'Josefin Slab', serif;
+      padding-left: 200px;
+  }
+
+  .titreContact {
+      font-family: 'Josefin Sans', bold;
+      color: white;
+      margin-top: 18%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .infosMenu{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .infosMenu ul li {
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+
+  .iconsContact{
+      width: 6%;
+      margin-right: 10px;
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+
+  /* logo et reseaux sociaux */
+  .divFooterLogo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 0%;
+      padding-left: 0;
+      justify-content: center;
+  }
+  .logoContainer{
+      width: 97px; 
+      height: 100px;
+      background-color: white;
+      border-radius: 50%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 13%;
+  }
+
+  .logolvf {
+      width: 105%;
+      margin-top: -10%;
+
+  }
+
+  .socialMenu {
+      display: flex;
+      padding-left: 0%;
+      
+  }
+
+  .divFooter ul li {
+      display: flex;
+      align-items: center;
+      color: white;
+      width: 15%;
+    }
+
+  .divFooter{
+      margin-right:250px;
+  }
+ 
+  .iconsSocialMedia {
+      width: 20px;
+      height: 20px;
+  }
+
+  
+  .mentions {
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: 'Josefin Slab', serif;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal; 
+  }
+
+
+  /* Bouton retour vers le haut */
+  .buttonTop{
+      position: relative;
+      top: 72px;
+      left: 2900%;
+  }
+
+  .Top{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
+
