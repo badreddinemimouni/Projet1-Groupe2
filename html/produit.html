@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style/produit.css" />
-    <!-- <script src="/script/produit.js" type="module" defer></script> -->
+    <link rel="stylesheet" href="/style/carousel.css">
+    <link rel="stylesheet" href="/style/contact.css">
+    <script src="/script/produit.js"defer></script>
+    <script src="/script/Contact.js" type="module" defer></script>
+
     <title>Nos produits</title>
   </head>
   <body>
@@ -17,7 +21,6 @@
         </div>
       </div>
       <div class="bloc2">
-        Bloc 2
         <div class="container-bloc2">
           <section>
             <figure class = "modele">
@@ -29,7 +32,7 @@
                     <p> <strong>Poids : </strong> </p>
                     <p> <strong>Vitesse : </strong> </p>
                     <p> <strong>Option : </strong> </p>
-                    <p><a href="#">Matériaux de fabrication : </a></p>
+                    <p><a href="#">Matériaux de fabrication </a></p>
                     <p><a href="#">Notre engagement </a></p>
                 </figcaption>
             </figure>
@@ -40,7 +43,6 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, aut, voluptate praesentium reprehenderit eos incidunt consequatur atque, in iusto nesciunt debitis. Quibusdam totam ab perspiciatis maiores consectetur iste ratione vitae eveniet quidem earum, voluptas est laboriosam vel natus praesentium placeat eligendi sapiente sequi consequatur eum laudantium voluptates animi quis.</p>
       </div>
       <div class="bloc4">
-        Bloc 4
         <div class="container-bloc2">
             <section>
               <figure class = "modele">
@@ -63,10 +65,49 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius harum itaque animi, at dignissimos earum alias minima voluptatibus, enim tempore ipsum quisquam iusto dolore cum, repudiandae praesentium sequi dolorem. Vero praesentium id reprehenderit dignissimos ipsum, maiores maxime, et temporibus numquam tempore porro beatae inventore non cupiditate veritatis incidunt reiciendis.</p>
       </div>
       <div class="bloc6">
-        BLOC 6
         <p>Nos boutiques</p>
       </div>
+      <div class="slideshow-container">
 
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="../assets/imgs/Devanture_Boutique_3.webp" style="width:100%">
+          <div class="text">Devanture boutique </div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="../assets/imgs/Devanture_Boutique_2.webp" style="width:100%">
+          <div class="text">Devanture boutique</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="../assets/imgs/Devanture_Boutique_1.webp" style="width:100%">
+          <div class="text">Devanture boutique</div>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      </div>
+      <br>
+    
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      <div>
+        <div class="map">
+          <h4>Localisation de nos points de ventes</h4>
+          <p>Trouver la boutique la plus proche</p>
+        </div>
+      </div>
+
+      <div class="formContact" id="formContact">
+      </div>
     </section>
   </body>
 </html>
