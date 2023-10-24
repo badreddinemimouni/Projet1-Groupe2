@@ -1,0 +1,109 @@
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    top: 100px;
+    position: absolute;
+    
+    left: 50px;
+}
+.card-1{
+    z-index: 3;
+    top:50px;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    font-size: 20px;
+    width: 358px;
+    height: 452px;
+}
+.card-1 img{
+    top: -20% !important;
+    left: 25% !important;
+    height: 200px !important;
+}
+
+.card-2 {
+    top: 80px;
+    left: 350px;
+    z-index: 2;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+}
+.card-3 {
+    top: 80px;
+    left: -190px !important;
+    z-index: 1;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+.persona{
+   position: relative;
+   display: inline;
+   left: 30%;
+   top: 100px;
+   right:-10px;
+}
+
+.persona img{
+    position: absolute;
+    top: -25% ;
+    border-radius: 50%;
+    left: 24%;
+    height: 182px;
+}
+
+.persona h2{
+    margin-top: 85px;
+}
+
+.persona h3{
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+.persona p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.avis{
+    position: relative;
+    top: 700px;
+    left: 17%;
+    /* display: flex; */
+    width: 80%;
+    max-width: 100%;
+}
+
+.avis h2{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+.avis textarea{
+    width: 75%;
+    height: 210px;
+    margin-bottom: 0%;
+}
+
+
+.bouton button{
+    background-color:white ;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    border-color: black;
+    left: 52.5%;
+    width: 280px;
+    height: 35px;
+    border-width: 2px;
+    margin-top: 10px;
+}
