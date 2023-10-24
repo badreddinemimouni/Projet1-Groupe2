@@ -1,6 +1,12 @@
+.blocP{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
 .bloc3, .bloc5, .bloc6{
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .bloc2, .bloc4, .bloc1{
@@ -17,6 +23,7 @@
 .velomobile {
     width: 50%;
     padding: 10px;
+    border-radius: 50px;
 }
 
 
@@ -39,30 +46,48 @@
     margin-right: 30px;
 }
 
-.map{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.bloc5 p{
+    text-align: center;
+    font-size: medium;
 }
 
-.map h4{
+.bloc6 p{
     color: #D3423F;
     font-size: large;
 }
 
-.formContact{
+.boutique{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-bottom: 100px; */
 }
+
+.text_map{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text_map h4{
+    color: #D3423F;
+    font-size: large;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
 
 .formContainer {
     color: black;
     font-size: medium;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 700px;
+    margin-bottom: 50px;
 }
 
 .formContainer h1,p {
