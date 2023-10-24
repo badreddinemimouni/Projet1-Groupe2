@@ -1,0 +1,53 @@
+/* desktop */
+
+@media screen and (min-width: 450px) {
+
+     /*Notre entreprise - titre*/
+
+    .titre{
+        display: block;
+        margin-left: 17%;
+    }
+
+   h2{
+    font-family: 'Josefin Sans';
+    width: 862px;
+    text-align: center;
+    font-size: 66px;
+    margin-left: 90px;
+   }
+
+   img{
+    width: 1051px;
+   }
+
+    /* L'histoire du vélomobile */
+    
+}
+
+/* mobile */
+@media screen and (max-width: 450px){
+
+    /*Notre entreprise - titre*/
+    .titre{
+        display: block;
+        
+    }
+
+
+    h2{
+        font-family: 'Josefin Sans';
+        width: 331px;
+        text-align: center;
+        font-size: 35px;
+        margin-left: 21px;
+       }
+        
+       img{
+        width: 100%;
+       }
+        
+       /* L'histoire du vélomobile */
+
+}
+   
