@@ -17,7 +17,7 @@ header {
 }
 
 .navMobile .menu {
-  /* display: flex; */
+  display: flex;
   position: absolute;
   right: -100px;
   top: -100px;

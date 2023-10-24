@@ -1,7 +1,3 @@
-body{
-    background-color: aliceblue;
-}
-
 .bloc3, .bloc5, .bloc6{
     display: flex;
     justify-content: center;
@@ -20,7 +16,9 @@ body{
 
 .velomobile {
     width: 50%;
+    padding: 10px;
 }
+
 
 .modele{
     display: flex;
@@ -33,8 +31,44 @@ body{
 
 .titre_classique{
     color: red;
+    margin-right: 30px;
 }
 
 .titre_sport{
     color: blue;
+    margin-right: 30px;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.map h4{
+    color: #D3423F;
+    font-size: large;
+}
+
+.formContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer {
+    color: black;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formContainer h1,p {
+    text-align: center;
+}
+
+.formContainer button {
+    margin-top: 10px;
 }
