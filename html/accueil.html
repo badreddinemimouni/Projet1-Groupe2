@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/style/header.css" />
+    <link rel="stylesheet" href="/style/contact.css">
+    <script src="/script/Contact.js" type="module" defer></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +36,48 @@
     <title>Accueil LVF</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logoHeader">
+        <img src="/assets/imgs/logo7 (2).webp" alt="" class="logoHeader" />
+      </div>
+      <div class="navbar">
+        <nav>
+          <label>
+            <div class="navMobile">
+                <input type="checkbox">
+                <span class="menu"> <span class="hamburger"></span> </span>
+                <ul>
+                    <li><a href="/html/accueil.html">ACCUEIL</a></li>
+                    <li><a href="/html/entreprise.html">NOTRE ENTREPRISE</a></li>
+                    <li><a href="/html/atelier.html">NOTRE ATELIER</a></li>
+                    <li><a href="/html/produit.html">NOS VÉLOMOBILES</a></li>
+                    <li>
+                      <a href="#formContainer">CONTACTEZ NOUS</a>
+                      <!-- <button type="button" class="btn" href="formContainer">
+                        CONTACT : 0* ** ** ** **
+                      </button> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="navDesk">
+              <ul>
+                <li><a href="/html/accueil.html">ACCUEIL</a></li>
+                <li><a href="/html/entreprise.html">NOTRE ENTREPRISE</a></li>
+                <li><a href="/html/atelier.html">NOTRE ATELIER</a></li>
+                <li><a href="/html/produit.html">NOS VÉLOMOBILES</a></li>
+                <li>
+                  <a href="#formContainer">CONTACTEZ NOUS</a>
+
+                  <!-- <button type="button" class="btn">
+                    CONTACT : 0* ** ** ** **
+                  </button> -->
+                </li>
+              </ul>
+            </div>
+          </label>
+        </nav>
+      </div>
+    </header>
 
     <main>
       <div class="lvf">
@@ -84,7 +129,7 @@
               auctor risus, a sollicitudin arcu viverra non. Morbi quis tellus
               maximus, pharetra mi at, euismod felis. Donec quis semper libero.
             </p>
-            <button class="entreprisebtn">Découvrire notre histoire</button>
+            <a class="entreprisebtn" href="/html/entreprise.html" >Découvrir notre histoire</a>
           </div>
           <div class="image-container-usine">
             <img
@@ -109,7 +154,7 @@
               auctor risus, a sollicitudin arcu viverra non. Morbi quis tellus
               maximus, pharetra mi at, euismod felis. Donec quis semper libero.
             </p>
-            <button class="NotreAtelierbtn">Découvrire L'atelier</button>
+            <a class="NotreAtelierbtn" href="/html/atelier.html">Découvrir L'atelier</a>
           </div>
           <div class="image-container-atelier">
             <img
@@ -167,7 +212,7 @@
             sollicitudin arcu viverra non. Morbi quis tellus maximus, pharetra
             mi at, euismod felis. Donec quis semper libero.
           </p>
-          <button class="btnClassic">MODÈLE CLASSIQUE</button>
+          <a class="btnClassic" href="/html/produit.html">MODÈLE CLASSIQUE</a>
         </div>
 
         <div class="SportVelo">
@@ -182,7 +227,7 @@
             sollicitudin arcu viverra non. Morbi quis tellus maximus, pharetra
             mi at, euismod felis. Donec quis semper libero.
           </p>
-          <button class="btnSport">MODÈLE SPORT</button>
+          <a class="btnSport" href="/html/produit.html">MODÈLE SPORT</a>
         </div>
       </div>
       <div class="ou">
@@ -233,6 +278,10 @@
           </ul>
         </div>
       </div>
+      <section>
+        <div class="formContainer" id="formContainer">
+        </div>
+      </section>
     </main>
     <footer class="responssivefooter">
       <section class="all">
@@ -306,9 +355,9 @@
           </ul>
         </div>
         <div class="buttonRetour">
-          <button class="buttonTop">
+          <a class="buttonTop" href="/html/accueil.html">
             <img class="Top" src="../assets/imgs/img_btn_top.webp" />
-          </button>
+          </a>
         </div>
       </section>
       <p class="mentions">

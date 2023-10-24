@@ -1225,3 +1225,7 @@ flex-shrink: 0;
   }
 }
 
+
+.formContainer{
+  margin-bottom: 100px;
+}
