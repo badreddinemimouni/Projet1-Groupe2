@@ -1,12 +1,24 @@
-.containerMain{
-    display: flex;
-    flex-direction: column;
-}
-.containerTop{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+main.containerMain {
+    max-width: 80%;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .containerTop h1 {
@@ -14,7 +26,7 @@
     font-size: large;
 }
 
-.containerMid{
+.containerMid {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,12 +34,218 @@
 
 }
 
-.containerMid h2, p{
+.containerMid h2 {
+    color: #D3423F;
+    font-size: large;
+}
+
+.containerMid p {
+    color: black;
+    font-size: small;
+}
+
+.VM_1 {
+    width: 70%;
+    align-self: center;
+}
+
+.container_entr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.img_entreprise{
+    display: flex;
+}
+
+.container_entr h3 {
+    font-size: large;
+    color: #D3423F;
+}
+
+.container_entr p {
+    color: black;
+    text-align: center;
+}
+
+.container_entr a {
+    text-decoration: none;
+    background-color: #D3423F;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+.container_atelier {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container_atelier h4 {
+    color: #5286B6;
+    font-size: large;
+}
+
+.container_atelier p {
+    color: black;
+    font-size: small;
+}
+
+.container_atelier a {
+    text-decoration: none;
+    background-color: #5286B6;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.container_atelier img {
+    width: 70%;
+}
+
+.madeFrance {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 30px;
+}
+
+.madeFrance img {
+    width: 20%;
+    justify-content: center;
+}
+
+.madeFrance p {
+    color: black;
+    font-size: medium;
+    text-align: center;
+}
+
+.containerProduit_Classique {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin-bottom: 50px;
+}
+
+.img_produit {
+    width: 70%;
+}
+
+.containerProduit_Classique h5 {
+    color: #5286B6;
+    font-size: large;
+}
+
+.containerProduit_Classique p {
     color: black;
     font-size: medium;
 }
 
-.VM_1{
-    width: 90vw;
-    align-self: center;
+.containerProduit_Classique a {
+    text-decoration: none;
+    color: white;
+    background-color: #5286B6;
+    border-radius: 5px;
+    padding: 10px;
 }
+
+.containerProduit_Sport {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.text_produit_s h5 {
+    font-size: large;
+    color: #D3423F;
+}
+
+.text_produit_s p {
+    color: black;
+    font-size: medium;
+}
+
+.text_produit_s a {
+    text-decoration: none;
+    color: white;
+    background-color: #D3423F;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.containerBot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBot h6 {
+    font-size: large;
+    color: #D3423F;
+}
+
+.containerBot p {
+    color: black;
+    font-size: medium;
+
+}
+
+.imgbot_1 {
+    width: 10%;
+
+}
+
+.formContainer {
+    color: black;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formContainer h1,
+p {
+    text-align: center;
+}
+
+.formContainer button {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .containerMid {
+        margin: 20px;
+    }
+
+    .VM_1 {
+        width: 100%;
+    }
+
+    .container_entr,
+    .container_atelier,
+    .containerProduit_Classique,
+    .containerProduit_Sport {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_atelier img,
+    .madeFrance img,
+    .img_produit,
+    .img_produit_s,
+    .imgbot_1 {
+        width: 100%;
+    }
+}
+
+  
