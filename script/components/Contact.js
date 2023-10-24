@@ -7,6 +7,8 @@ export default class Contact extends ManageDom {
     }
 
     render() {
+        let formContainer = document.getElementById("formContainer");
+
         const form = this.createMarkup("form", "", document.body);
 
         // Titre et texte
@@ -37,15 +39,12 @@ export default class Contact extends ManageDom {
         // CHECKBOX 1
         const div_checkbox = this.createMarkup("div","", form, [{class : "checkbox-container"}])
         const checkbox_newsletter = this.createMarkup("input" , "", div_checkbox , [{type : "checkbox"}, {id : "newsletter"}]);
-        const label_newsletter = this.createMarkup("label" , "NEWSLETTER" ,  div_checkbox, [{for : "newsletter"}]);
-
-        // CHECKBOX 2  
-        const div_checkbox2 = this.createMarkup("div","", form, [{class : "checkbox-container"}])
-        const checkbox_info = this.createMarkup("input" , "", div_checkbox , [{type : "checkbox"}, {id : "newsletter"}]);
-        const label_info = this.createMarkup("label" , "Info" ,  div_checkbox, [{for : "newsletter"}]);
+        const label_newsletter = this.createMarkup("label" , "Inscription à la newsletter." ,  div_checkbox, [{for : "newsletter"}]);
 
         // Bouton
         const button_sub = this.createMarkup("button", "Envoyer", form);
+
+        formContainer.appendChild(form)
 
         return {
             input_name,
