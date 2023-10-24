@@ -9,7 +9,7 @@ export default class Contact extends ManageDom {
     render() {
         let formContainer = document.getElementById("formContainer");
 
-        const form = this.createMarkup("form", "", document.body);
+        const form = this.createMarkup("form", "", formContainer);
 
         // Titre et texte
         this.createMarkup("h1", "Contactez nous", form);

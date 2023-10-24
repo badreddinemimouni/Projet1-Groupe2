@@ -4,16 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="../style/style.css" />
+    <!-- Police josefin sans regular ecleart bold -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Police josefin slab avec serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Slab&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style/produit.css" />
     <link rel="stylesheet" href="/style/carousel.css">
-    <link rel="stylesheet" href="/style/contact.css">
     <script src="/script/produit.js"defer></script>
+    <link rel="stylesheet" href="../style/map.css">
+    <script src="../map.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <script src="../avis.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../style/avis.css">
+    <link rel="stylesheet" href="/style/contact.css">
     <script src="/script/Contact.js" type="module" defer></script>
-
     <title>Nos produits</title>
   </head>
   <body>
-    <section>
+    <header>
+      <div class="logoHeader">
+        <img src="/assets/imgs/logo7 (2).webp" alt="" class="logoHeader" />
+      </div>
+      <div class="navbar">
+        <nav>
+          <label>
+            <div class="navMobile">
+                <input type="checkbox">
+                <span class="menu"> <span class="hamburger"></span> </span>
+                <ul>
+                    <li><a href="#">ACCUEIL</a></li>
+                    <li><a href="#">NOTRE ENTREPRISE</a></li>
+                    <li><a href="#">NOTRE ATELIER</a></li>
+                    <li><a href="#">NOS VÉLOMOBILES</a></li>
+                    <li>
+                      <button type="button" class="btn_header">
+                        CONTACT : 0* ** ** ** **
+                      </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="navDesk">
+              <ul>
+                <li><a href="#">ACCUEIL</a></li>
+                <li><a href="#">NOTRE ENTREPRISE</a></li>
+                <li><a href="#">NOTRE ATELIER</a></li>
+                <li><a href="#">NOS VÉLOMOBILES</a></li>
+                <li>
+                  <button type="button" class="btn_header">
+                    CONTACT : 0* ** ** ** **
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <section class="blocP">
       <div class="bloc1">
         <h1>NOS VÉLOMOBILES</h1>
         <div class="sous-titre">
@@ -99,15 +168,145 @@
         <span class="dot" onclick="currentSlide(3)"></span> 
       </div>
 
-      <div>
-        <div class="map">
+      <div class="boutique">
+        <div class="text_map">
           <h4>Localisation de nos points de ventes</h4>
           <p>Trouver la boutique la plus proche</p>
         </div>
+        <div class="apropos">
+          <div class="map" id="map">
+              
+          </div>
+        </div>
+ 
       </div>
 
-      <div class="formContact" id="formContact">
+      <section class="avis_parent">
+        <div class="persona">
+          <div class="card card-1">
+              <img src="../assets/imgs/Kathy.png" alt="Kathy">
+              <h2>~Kathy~</h2>
+              <h3>“C’est LE moyen de transport écolo, design et pratique”</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Tempora atque odit nemo aut iste asperiores tempore modi, eaque odio, illo cupiditate voluptatibus eveniet hic!
+                   Odio nostrum eum temporibus voluptate nihil laudantium saepe facilis, voluptatibus cupiditate similique dolor 
+                   autem obcaecati expedita.  ecessitatibus earum incidunt beatae dicta saepe dolor! Obcaecati, mollitia iure!</p>            
+          </div>
+      
+          <div class="card card-2">
+              <img src="../assets/imgs/Kathy.png" alt="Kathy">
+              <h2>~Kathy~</h2>
+              <h3>“C’est LE moyen de transport écolo, design et pratique”</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corrupti, consequuntur accusantium perferendis ipsum repudiandae nostrum, repellendus similique molestiae aliquam cumque. Voluptatum distinctio corporis cumque delectus recusandae, tempora sunt consectetur.</p>
+              
+          </div>
+  
+          <div class="card card-3">
+              <img src="../assets/imgs/Kathy.png" alt="Kathy">
+              <h2>~Kathy~</h2>
+              <h3>“C’est LE moyen de transport écolo, design et pratique”</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corrupti, consequuntur accusantium perferendis ipsum repudiandae nostrum, repellendus similique molestiae aliquam cumque. Voluptatum distinctio corporis cumque delectus recusandae, tempora sunt consectetur.</p>
+              
+          </div>
+          
+         
+  
+      </div>
+  
+      <div class="avis">
+          <h2>Et vous ? Dites-nous en plus à propos de votre expérience :</h2>
+          <textarea name="Avis" id="texteArea" placeholder="Entrez votre avis ici ! "></textarea>
+          <div class="bouton">
+              <button id="bouton">ENVOYER</button>
+          </div>
+      </div>
+      </section>
+
+    <div class="formContainer" id="formContainer">
+
+    </div>
+  </section>
+  <footer>
+    <section class="all">
+      <div class="divFooter">
+        <h2 class="titreNews">NEWSLETTER</h2>
+        <p class="texteNews">
+          Recevez des informations par mail sur nos vélomobiles
+        </p>
+        <form class="formNewsletter">
+          <button class="button">
+            <img
+              class="envoi"
+              src="../assets/imgs/MicrosoftTeams-image (7).png"
+            />
+          </button>
+        </form>
+      </div>
+
+      <div class="divFooterContact">
+        <h2 class="titreContact">CONTACT</h2>
+        <div class="infosMenu">
+          <ul>
+            <li>
+              <img
+                class="iconsContact"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEElEQVR4nO3ZzYtNYRzA8Z/XUWJDGKJk5WUpWUrsyEYUNanBn6D8BbLDCv+BxcR4jSxQkxoLRnmLImXl5UZIqI9OcxY3Zu7c59zuuc9kPn/B/fac+5zn+Z2IGTN6B3swii94gK0xnWAezvpXA6tiOsAiXDe5a5E7rMQTUxuIXGE5XmjPJ/RHbjAfI9IMR25wXDUHIyd4UzHkA1ZELvBVdUORC7zUmf2RAwx1GPI8coCjHYZ8jxxgGX53EHI/coHbHYQM5HbSreIRZkcuMAtjFUJ2Rm6wLzHicuTI+KrcSwgZjFxhI34mnILXRa5wMmFVHmJh5Ah95Q9sV7F190WOsAHfEmIuYm7kCEekOV9sGJEjE09TWjkVGY+G7iTGnM5yZYwPJl5VeMzmRG6wBm8TYy5hQeQGm/AxMebmRO+ZYrVwqBzF/sKz4ohUZ8yWchacYqz5BIDtLd5TV4pBYV0xO/AjMaY4zgziapvTmQN13l9SY1T4j/XXEbOtwmOWqlHMFOqI2Yz3uu8GVtdx9H9XQ0yj2Gy6HbO2wkuzitGuhjSNlVJumFV87npI0yeKc10MGaklpCnocOJ9pl27ag0pY9Yn3jSncqb2iL+uzScSBhqttt/e30DLLfquah5jcWQ2N9ub+Lg9Le5DkaMyaDdulUf4yRRb+dKYDrCkPBVfKD4YlZ8BX+NYcc3u9e+b8d/6A8BzVur0abPMAAAAAElFTkSuQmCC"
+              />
+              <p>+336 ** ** ** **</p>
+            </li>
+            <li>
+              <img
+                class="iconsContact"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVR4nO3XQYhNURgA4J+YiTIllJJSSilFUYqykJWynK3Z2crK1pKlpa2lrdiIYiEWykJNTdlgIWlqRE0yPk2dxen14t178e77u1/d3Tn3/uee85/zn4jBYDAYTIMkQhIhiZBESCIkHsiG/tuYZCAn8VR/vcCZPw6kOl8u4a3+eIfL2DLu/Bs3I9cwVxrP4zrWTM9aiWG+xDRXYpwo2VewWM3OHtzGD/83D+5ifxXHBbxps2s9wYnqRUfxwL/3GMdHvvuw6/bb6M90tDKyEvZOuhKanCNfcQM7yke24wo+6W51TB5cbZKbbQ7E9yO7x27cxHqLd33HHezruluG9l7ibBXAEdxr0P8RjlX9T+HZtEqUnyX4Q1VA5/H6N32WcbFqf6DMSqeK4m/VWt/K8tpVgttalt/Hqs3nsu63lTY7S1586WPR+AFLmwMpwS7gVnkWqkEulba9r35f4dyYa/VpPJ/FMv4+DuNgOYs2c2pm7yPrLbfmRlJfrGZSSCIkEZIISYQkQhIhiZBESCIkEZIIScRgMBgMYgp+AZ7xMRGVVHbYAAAAAElFTkSuQmCC"
+              />
+              <p>contact@lvf.fr</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="divFooterLogo">
+        <div class="logoContainer">
+          <img class="logo" src="../assets/imgs/logo7 (2).webp" />
+        </div>
+        <ul class="socialMenu">
+          <li>
+            <a href="https://www.facebook.com/"
+              ><img class="iconsSocialMedia" src="../assets/imgs/img_fb.webp"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img
+                class="iconsSocialMedia"
+                src="../assets/imgs/img_insta.webp"
+            /></a>
+          </li>
+          <li>
+            <a href="www.youtube.com"
+              ><img
+                class="iconsSocialMedia"
+                src="../assets/imgs/img_ytb.webp"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.dailymotion.com/fr"
+              ><img
+                class="iconsSocialMedia"
+                src="../assets/imgs/dailymotion_icon.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="buttonRetour">
+        <button class="buttonTop">
+          <img class="Top" src="../assets/imgs/img_btn_top.webp" />
+        </button>
       </div>
     </section>
+    <p class="mentions">
+      © 2023 – LVF | Mentions Légales – Conditions Générales de Vente –
+      Protection des données | Agence web à Montpellier
+    </p>
+  </footer>
   </body>
 </html>
